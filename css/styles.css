@@ -1,0 +1,164 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,h2,h3,h4{
+  font-family: "Montserrat-Bold";
+
+}
+
+p{
+  color: grey;
+}
+.bighead{
+
+  font-family: 'Montserrat-Black';
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.secthead{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 7% 15% ;
+
+}
+/*titlesection*/
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left
+
+}
+/*colowhire section*/
+.coloredsect{
+  background-color: #ff4c68;
+  color:white;
+
+
+}
+.whitesect{
+  background-color: white;
+}
+
+/*navigation*/
+.navbar{
+  padding:0 0  4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size:50px;
+  font-weight:bold;
+
+}
+.nav-item{
+  padding: 0 18px;
+
+}
+ .nav-link{
+   font-size: 1.2rem;
+   font-family: "Montserrat-light"
+ }
+/*dwnld button*/
+ .dwnldbtn{
+   margin: 5% 3% 5% 0;
+
+ }
+ /*tiimg*/
+  .titleimg{
+    width: 60%;
+    transform: rotate(25deg);
+    position:absolute;
+    right:30%;
+
+  }
+#features{
+  position: relative;
+  /*z-index: 1;*/
+
+}
+.feathead{
+  font-size: 1.5rem;
+}
+
+.featbox{
+  padding: 5%;
+}
+.fas{
+  color: #ef8172;
+  position: relative;
+  margin-bottom: 1rem;
+}
+.fas:hover{
+  color:#ff4c68
+}
+
+#testimonials{
+background-color: #ef8172;
+
+
+
+}
+.testimonial-text{
+  font-size: 3ren;
+  line-height: 1.5;
+}
+.dogimg{
+  width:10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+#press{
+  background-color:#ef8172;
+  margin-bottom: 3px;
+}
+.presslogo{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing{
+  padding: 100px;
+}
+
+
+.btn{
+  color: white;
+  background-color: black;
+}
+
+
+.btn1:hover{
+  color:white;
+  background-color:black;
+
+}
+.pricecol{
+  padding: 3% 2%;
+}
+#cta{
+  color: black;
+}
+ @media (max-width:1028px)
+ {
+   #title{
+     text-align: center;
+   }
+   .titleimg{
+     position:static;
+     transform: rotate(0);
+   }
+ }
+ /*call to function*/
+.container-fluid 1{
+  color: black;
+}
+.hell{
+  position:relative;
+}
+ /*footer*/
+.heaven{
+  margin: 20px 10px;
+}
